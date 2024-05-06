@@ -553,9 +553,9 @@ class _AdvancedPlugState extends State<AdvancedPlug> {
           decoration:
               BoxDecoration(border: Border.all(color: AppColor.boxborder)),
           child: DropdownSearch<String>.multiSelection(
-            mode: Mode.MENU,
-            showClearButton: true,
-            showSelectedItems: true,
+            // mode: Mode.MENU,
+            // showClearButton: true,
+            // showSelectedItems: true,
             items: const [
               "Brazil",
               "Italia (Disabled)",
@@ -563,14 +563,14 @@ class _AdvancedPlugState extends State<AdvancedPlug> {
               'Canada',
               "New York"
             ],
-            dropdownSearchDecoration: InputDecoration(
-              contentPadding: EdgeInsets.fromLTRB(10, 8, 10, 10),
+            // dropdownSearchDecoration: InputDecoration(
+            //   contentPadding: EdgeInsets.fromLTRB(10, 8, 10, 10),
 
-              // labelText: "Menu mode",
-              // hintText: "country in menu mode",
-              border: InputBorder.none,
-            ),
-            popupItemDisabled: isItemDisabled,
+            //   // labelText: "Menu mode",
+            //   // hintText: "country in menu mode",
+            //   border: InputBorder.none,
+            // ),
+            // popupItemDisabled: isItemDisabled,
             onChanged: print,
             selectedItems: const [
               "Brazil",
@@ -597,8 +597,8 @@ class _AdvancedPlugState extends State<AdvancedPlug> {
               BoxDecoration(border: Border.all(color: AppColor.boxborder)),
           child: DropdownButtonHideUnderline(
             child: DropdownSearch<String>(
-              mode: Mode.MENU,
-              showSelectedItems: true,
+              // mode: Mode.MENU,
+              // showSelectedItems: true,
               items: const [
                 "Brazil",
                 "Italia (Disabled)",
@@ -606,21 +606,21 @@ class _AdvancedPlugState extends State<AdvancedPlug> {
                 "Canada",
                 "New York",
               ],
-              dropdownSearchDecoration: InputDecoration(
-                contentPadding: EdgeInsets.fromLTRB(10, 8, 10, 10),
+              // dropdownSearchDecoration: InputDecoration(
+              //   contentPadding: EdgeInsets.fromLTRB(10, 8, 10, 10),
 
-                // labelText: "Menu mode",
-                // hintText: "country in menu mode",
-                border: InputBorder.none,
-              ),
-              popupItemDisabled: isItemDisabled,
+              //   // labelText: "Menu mode",
+              //   // hintText: "country in menu mode",
+              //   border: InputBorder.none,
+              // ),
+              // popupItemDisabled: isItemDisabled,
               onChanged: itemSelectionChanged,
               //selectedItem: "",
-              showSearchBox: true,
-              searchFieldProps: TextFieldProps(
-                cursorColor: AppColor.selecteColor,
-              ),
-              selectionListViewProps: SelectionListViewProps(shrinkWrap: true),
+              // showSearchBox: true,
+              // searchFieldProps: TextFieldProps(
+              //   cursorColor: AppColor.selecteColor,
+              // ),
+              // selectionListViewProps: SelectionListViewProps(shrinkWrap: true),
             ),
           ),
         ),

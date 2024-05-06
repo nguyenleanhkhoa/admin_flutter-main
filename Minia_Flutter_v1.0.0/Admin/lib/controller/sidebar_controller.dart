@@ -30,7 +30,7 @@ class SideBarController extends GetxController {
   RxInt index = 0.obs;
 
   var page = [
-    Dashboard(), //0
+    // Dashboard(), //0
     Calender(), //1
     ChatView(), //2
     EmailView(), //3

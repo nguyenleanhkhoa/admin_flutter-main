@@ -53,10 +53,10 @@ class AppPages {
       name: Paths.login,
       page: () => const Login(),
     ),
-    GetPage(
-      name: Paths.dashboard,
-      page: () => const Dashboard(),
-    ),
+    // GetPage(
+    //   name: Paths.dashboard,
+    //   page: () => const Dashboard(),
+    // ),
     GetPage(
       name: Paths.resetPassword,
       page: () => const ResetPassword(),
@@ -163,7 +163,7 @@ class AppPages {
     ),
     GetPage(
       name: Paths.profileView,
-      page: () =>  const ProfileView(),
+      page: () => const ProfileView(),
     ),
     GetPage(
       name: Paths.datatablemain,

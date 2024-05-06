@@ -39,7 +39,7 @@ class _VerticalChartState extends State<VerticalChart> {
               majorGridLines: MajorGridLines(
             color: Colors.transparent,
           )),
-          series: <ChartSeries>[
+          series: [
             StackedColumnSeries<ChartData, String>(
               color: Colors.transparent,
               dataSource: chartData,

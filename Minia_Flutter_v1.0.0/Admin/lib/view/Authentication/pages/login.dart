@@ -1,7 +1,7 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables, sized_box_for_whitespace, unused_local_variable
 
 // import 'package:carousel_pro_nullsafety/carousel_pro_nullsafety.dart';
-import 'package:carousel_pro_nullsafety/carousel_pro_nullsafety.dart';
+// import 'package:carousel_pro_nullsafety/carousel_pro_nullsafety.dart';
 import 'package:floating_bubbles/floating_bubbles.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
@@ -620,40 +620,40 @@ Stack imageLogin(BuildContext context) {
           speed: BubbleSpeed.values[1],
         ),
       ),
-      Align(
-        alignment: Alignment.center,
-        child: SingleChildScrollView(
-          child: Padding(
-            padding: const EdgeInsets.all(18.0),
-            child: Column(
-              children: [
-                Container(
-                    // color: Colors.amber,
-                    width: 787,
-                    height: 400,
-                    child: Carousel(
-                      images: [
-                        loginNews1(context),
-                        loginNews2(context),
-                        loginNews3(context),
-                      ],
-                      dotPosition: DotPosition.bottomLeft,
-                      dotSize: 5.0,
-                      dotSpacing: 15.0,
-                      // overlayShadowSize: 5.0,
-                      // showIndicator: true,
-                      boxFit: BoxFit.contain,
-                      autoplayDuration: Duration(seconds: 6),
-                      dotColor: AppColor.dotscolor,
-                      indicatorBgPadding: 5.0,
-                      dotBgColor: Colors.transparent,
-                      borderRadius: false,
-                    )),
-              ],
-            ),
-          ),
-        ),
-      ),
+      // Align(
+      //   alignment: Alignment.center,
+      //   child: SingleChildScrollView(
+      //     child: Padding(
+      //       padding: const EdgeInsets.all(18.0),
+      //       child: Column(
+      //         children: [
+      //           Container(
+      //               // color: Colors.amber,
+      //               width: 787,
+      //               height: 400,
+      //               child: Carousel(
+      //                 images: [
+      //                   loginNews1(context),
+      //                   loginNews2(context),
+      //                   loginNews3(context),
+      //                 ],
+      //                 dotPosition: DotPosition.bottomLeft,
+      //                 dotSize: 5.0,
+      //                 dotSpacing: 15.0,
+      //                 // overlayShadowSize: 5.0,
+      //                 // showIndicator: true,
+      //                 boxFit: BoxFit.contain,
+      //                 autoplayDuration: Duration(seconds: 6),
+      //                 dotColor: AppColor.dotscolor,
+      //                 indicatorBgPadding: 5.0,
+      //                 dotBgColor: Colors.transparent,
+      //                 borderRadius: false,
+      //               )),
+      //         ],
+      //       ),
+      //     ),
+      //   ),
+      // ),
     ],
   );
 }
